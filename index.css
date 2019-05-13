@@ -1,0 +1,111 @@
+:root {
+  background: linear-gradient(#bbd8f7,#f0bbf7);
+  color: #114291;
+  font-family: 'Montserrat', sans-serif;
+}
+body{
+  margin: auto;
+}
+a{
+  text-decoration: none;
+  color: white;
+  animation-play-state: paused;
+}
+a:hover{
+    color: #a3c6ff;
+    animation-play-state: running;
+}
+p{
+  line-height: 30px;
+}
+img{
+  height: 250px;
+}
+ul{
+  list-style-type: none;
+}
+
+/* ---------------- menu---------------------------*/
+
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 95%;
+  padding-left: 5%;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background: linear-gradient(to right,#569cff, #8e56ff);
+  align-self: center;
+}
+.menuEl{
+  margin: auto;
+  color: white;
+  text-align: center;
+  width: 22%;
+  float: left;
+  border-right: 1px solid white;
+  float: left;
+}
+.menuEl a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.menuEl a:hover{
+  color: #42bcf4;
+}
+#c{
+  border:none;
+}
+
+/*----------------------divs--------------------- */
+.page{
+  width: 70%;
+  text-align: center;
+  display: inline-block;
+  transform: translate(20%);
+}
+#welcome {
+  border-bottom: 2px solid blue;
+  padding-top:20%;
+  padding-bottom: 20%;
+
+}
+#welcome2{
+    font-size: 60px;
+    -webkit-animation-duration: 2s;
+}
+#welcome3{
+  font-size: 60px;
+  -webkit-animation-duration:3s;
+
+}
+#iglogo{
+  background-color: inherit;
+  height: 3%;
+  width: 3%;
+}
+#gmailLogo{
+  height: 3%;
+  width: 3%;
+}
+
+
+/* ----------------------------------------------- visible animation  -------------------------------------------- */
+/* .headerSection{
+  animation-play-state: paused;
+}
+.bodySection{
+  animation-play-state: paused;
+} */
+.features{
+  /* visibility: hidden; */
+  border-bottom: 2px solid blue;
+  opacity:1;
+}
